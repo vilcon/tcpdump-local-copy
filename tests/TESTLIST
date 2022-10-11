@@ -909,3 +909,6 @@ quic_handshake			quic_handshake.pcap		quic_handshake.out	-v
 quic_handshake_truncated	quic_handshake_truncated.pcap	quic_handshake_truncated.out	-v
 quic_retry			quic_retry.pcap			quic_retry.out	-v
 gquic				gquic.pcap			gquic.out	-v
+
+# Undefined behavior tests
+bgp-ub  bgp-ub.pcap     bgp-ub.out      -v
