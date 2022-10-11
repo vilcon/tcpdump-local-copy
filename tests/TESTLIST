@@ -913,3 +913,5 @@ gquic				gquic.pcap			gquic.out	-v
 # Undefined behavior tests
 bgp-ub  bgp-ub.pcap     bgp-ub.out      -v
 fletcher-checksum-negative-shift fletcher-checksum-negative-shift.pcap fletcher-checksum-negative-shift.out     -v
+ip-snmp-leftshift-unsigned      ip-snmp-leftshift-unsigned.pcap      ip-snmp-leftshift-unsigned.out
+ip6-snmp-oid-unsigned   ip6-snmp-oid-unsigned.pcap      ip6-snmp-oid-unsigned.out
