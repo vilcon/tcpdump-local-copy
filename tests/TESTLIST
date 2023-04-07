@@ -901,3 +901,11 @@ quic_handshake			quic_handshake.pcap		quic_handshake.out	-v
 quic_handshake_truncated	quic_handshake_truncated.pcap	quic_handshake_truncated.out	-v
 quic_retry			quic_retry.pcap			quic_retry.out	-v
 gquic				gquic.pcap			gquic.out	-v
+
+# Undefined behavior tests
+bgp-ub  bgp-ub.pcap     bgp-ub.out      -v
+fletcher-checksum-negative-shift fletcher-checksum-negative-shift.pcap fletcher-checksum-negative-shift.out     -v
+ip-snmp-leftshift-unsigned      ip-snmp-leftshift-unsigned.pcap      ip-snmp-leftshift-unsigned.out
+ip6-snmp-oid-unsigned   ip6-snmp-oid-unsigned.pcap      ip6-snmp-oid-unsigned.out
+lwres-pointer-arithmetic-ub	lwres-pointer-arithmetic-ub.pcap	lwres-pointer-arithmetic-ub.out
+ospf-signed-integer-ubsan       ospf-signed-integer-ubsan.pcap          ospf-signed-integer-ubsan.out -vv
